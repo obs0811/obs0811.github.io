@@ -1,7 +1,7 @@
 # Setup
 title:               Byungsoo's Blog
 tagline:             'Daily log'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'A record of what I have experienced in my daily life'
 url:                 'https://obs0811.github.io'
 baseurl:             ''
 paginate:            5
