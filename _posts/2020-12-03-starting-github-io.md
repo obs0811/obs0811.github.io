@@ -6,15 +6,15 @@ title: Starting Github.io Blog
 Github.io로 블로그를 시작하기 위한 절차를 간단히 정리
 
 ### Jekyll 테마 찾기
-Jekyll 테마를 검색해서 원하는 테마 찾기 (데모 확인 가능)
+Jekyll 테마를 검색해서 원하는 테마 찾기 (데모 확인 가능)  
 참고 사이트:
 - https://jekyllthemes.io/
 - https://jekyll-themes.com/blog/top-jekyll-themes/
 
 ### 해당 Repository Fork 및 설정 변경
-원하는 Jekyll 테마의 github repository로 이동하여 오른쪽 상단의 Fork 버튼 클릭
-Fork 완료되면 Settings에서 `Repository name`을 `{user-id}.github.io`로 변경 (user-id는 내 github ID)
-잠시 기다리면 Settings 하단에 "Your site is published at `{user-id}.github.io`"와 같이 표시됨
+1. 원하는 Jekyll 테마의 github repository로 이동하여 오른쪽 상단의 Fork 버튼 클릭
+2. Fork 완료되면 Settings에서 `Repository name`을 `{user-id}.github.io`로 변경 (user-id는 내 github ID)
+3. 잠시 기다리면 Settings 하단에 "Your site is published at `{user-id}.github.io`"와 같이 표시됨
 
 ### Config 수정
 Repository의 source root에 `_config.yml` 파일이 있는데 `url` 정보 다음과 같이 수정 필요
