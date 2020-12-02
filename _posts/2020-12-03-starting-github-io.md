@@ -6,7 +6,8 @@ title: Starting Github.io Blog
 Github.io로 블로그를 시작하기 위한 절차를 간단히 정리
 
 ### Jekyll 테마 찾기
-Jekyll 테마를 검색해서 원하는 테마 찾기 (데모 확인 가능)  
+Jekyll 테마를 검색해서 원하는 테마 찾기 (데모 확인 가능)
+
 참고 사이트:
 - https://jekyllthemes.io/
 - https://jekyll-themes.com/blog/top-jekyll-themes/
