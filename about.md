@@ -9,4 +9,4 @@ I'm a software engineer. I hope to learn from experiences (trials and errors) an
 - [Google Scholar](https://scholar.google.com/citations?hl=ko&user=vjpwFacAAAAJ)
 - [DBLP](https://dblp.org/pid/228/4692.html)
 
-Thanks for reading! :smile:
+Thanks for reading! :smiley:
