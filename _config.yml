@@ -1,7 +1,7 @@
 # Setup
 title:               Byungsoo's Blog
 tagline:             'Daily log'
-description:         'A record of what I have experienced in my daily life'
+description:         'A record of my daily experience'
 url:                 'https://obs0811.github.io'
 baseurl:             ''
 paginate:            5
