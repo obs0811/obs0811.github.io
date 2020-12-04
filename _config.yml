@@ -5,7 +5,7 @@ description:         'A record of my daily experience'
 url:                 'https://obs0811.github.io'
 baseurl:             ''
 paginate:            5
-permalink:           /:categories/:title/
+permalink:           pretty
 
 # About/contact
 author:
