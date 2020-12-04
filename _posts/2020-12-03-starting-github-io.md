@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Starting Github.io Blog
+category: [ Tech ]
 ---
 
 Github.io로 블로그를 시작하기 위한 절차를 간단히 정리
