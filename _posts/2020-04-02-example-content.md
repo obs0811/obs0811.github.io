@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 category: [ Miscellaneous ]
+permalink: /:categories/:title/
 ---
 
 
