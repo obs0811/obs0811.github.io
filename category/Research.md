@@ -1,4 +1,4 @@
 ---
 layout: category
-title: Research
+title: research
 ---
