@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Lanyon
-category: [ Miscellaneous ]
+category: [ miscellaneous ]
 permalink: /:categories/:title/
 ---
 

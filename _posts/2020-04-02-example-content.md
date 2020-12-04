@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content
-category: [ Miscellaneous ]
+category: [ miscellaneous ]
 permalink: /:categories/:title/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Starting Github.io Blog
-category: Tech
+category: tech
 permalink: /:categories/:title/
 ---
 
