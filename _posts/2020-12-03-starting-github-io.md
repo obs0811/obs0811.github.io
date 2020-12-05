@@ -11,8 +11,8 @@ Github.io로 블로그를 시작하기 위한 절차를 간단히 정리
 Jekyll 테마를 검색해서 원하는 테마 찾기 (데모 확인 가능)
 
 참고 사이트:
-- https://jekyllthemes.io/
-- https://jekyll-themes.com/blog/top-jekyll-themes/
+- <https://jekyllthemes.io/>
+- <https://jekyll-themes.com/blog/top-jekyll-themes/>
 
 ### 해당 Repository Fork 및 설정 변경
 1. 원하는 Jekyll 테마의 github repository로 이동하여 오른쪽 상단의 Fork 버튼 클릭
@@ -49,4 +49,4 @@ Github repository 내에서 직접 파일 편집 및 commit을 통해 블로그 
 
 
 ### 참고
-https://dreamgonfly.github.io/blog/jekyll-remote-theme/
+<https://dreamgonfly.github.io/blog/jekyll-remote-theme/>
