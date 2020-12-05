@@ -2,6 +2,7 @@
 layout: post
 title: Starting Github.io Blog
 categories: [ tech ]
+tags: [ jekyll ]
 permalink: /:categories/:title/
 ---
 
