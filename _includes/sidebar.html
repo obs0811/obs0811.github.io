@@ -25,8 +25,11 @@
       {% endif %}
     {% endfor %}
 
+    <a class="sidebar-nav-item" href="{{ root_url }}/category">Category</a>
+
+    <!--
     <div>
-      <!-- <div class="sidebar-nav-item">Category</div> -->
+      <div class="sidebar-nav-item">Category</div>
       <nav class="content-ul">
         {% for category in site.categories %}
         <a href="{{ root_url }}/{{ category | first }}"
@@ -34,11 +37,12 @@
                               <span class="name">
                                   {{ category | first }}
                               </span>
-          <!-- <span class="badge">{{ category | last | size }}</span> -->
+          <span class="badge">{{ category | last | size }}</span>
         </a>
         {% endfor %}
       </nav>
-    </div>    
+    </div>
+    -->
 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
