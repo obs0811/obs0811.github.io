@@ -2,6 +2,7 @@
 layout: post
 title: What's Jekyll?
 categories: [ research ]
+tags: [ jekyll ]
 permalink: /:categories/:title/
 ---
 
