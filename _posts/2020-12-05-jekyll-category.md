@@ -20,26 +20,9 @@ Category를 만드는 것도 post를 생성하는 것과 유사함: category에 
    - "Category"라는 class를 만든다고 생각해도 됨
    - 이 class의 instance로 실제 여러 종류의 카테고리 (e.g. Tech / Research / Misc.)를 생성하고 post에서 이를 사용하는 방식
    - 예시: `_layouts/category.html`
-
-```html
----
-layout: default
----
-<ul class="posts-list">
-{% assign category = page.category | default: page.title %}
-{% for post in site.categories[category] %}
-<li>
-    <h3>
-    <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-    </a>
-    <small>{{ post.date | date_to_string }}</small>
-    </h3>
-</li>
-{% endfor %}
-</ul>
-```
-
+     ```
+     TBD
+     ```
    - 동작 방식: TBD 
 2. Category 생성
    - 최상위 디렉토리에 category를 관리하기 위한 `category/` 디렉토리 생성
@@ -72,27 +55,9 @@ layout: default
 - Blog에서 생성한 post list 중 category를 명시 (e.g. `categories: [ tech ]`) 한 것을 찾아서 출력
 - 최상위 디렉토리에 `categories.html` 파일 작성
 - 예시: 
-
-```html
----
-layout: page
-title: Category
-description: "An archive of posts sorted by tag."
----
-<header class="site-category">
-    <ul> 
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-        {% if node.title != null %}
-        {% if node.layout == "category" %}
-            <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
-            href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-        {% endif %}
-        {% endif %}
-    {% endfor %}
-    </ul>
-</header>
-```
+  ```
+  TBD
+  ```
 
 ### Summary
 1. Category layout 생성
