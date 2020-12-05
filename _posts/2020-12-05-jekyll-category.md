@@ -25,7 +25,6 @@ Category를 만드는 것도 post를 생성하는 것과 유사함: category에 
      layout: default
      ---
      <ul class="posts-list">
-    
      {% assign category = page.category | default: page.title %}
      {% for post in site.categories[category] %}
        <li>
@@ -37,7 +36,6 @@ Category를 만드는 것도 post를 생성하는 것과 유사함: category에 
          </h3>
        </li>
      {% endfor %}
-    
      </ul>
      ```
    - 동작 방식: TBD 
@@ -78,10 +76,8 @@ Category를 만드는 것도 post를 생성하는 것과 유사함: category에 
     title: Category
     description: "An archive of posts sorted by tag."
     ---
-
     <header class="site-category">
-        <ul>
-        
+        <ul> 
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
             {% if node.title != null %}
@@ -91,7 +87,6 @@ Category를 만드는 것도 post를 생성하는 것과 유사함: category에 
             {% endif %}
             {% endif %}
         {% endfor %}
-        
         </ul>
     </header>
     ```
