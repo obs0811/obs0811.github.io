@@ -12,20 +12,16 @@ description: "An archive of posts sorted by tag."
         {% if node.layout == "category" %}
           <a class="category-link {% if page.url == node.url %} active{% endif %}"
           href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-          {% for page in page_list %}
-            {% if page.layout == "post" && page.category != null %}
-              {% assign category = page.category %}
-              {% for post in site.categories[category] %}
-                <li>
-                  <h3>
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                      {{ post.title }}
-                    </a>
-                    <small>{{ post.date | date_to_string }}</small>
-                  </h3>
-                </li>
-              {% endfor %}
-            {% endif %}
+          {% assign category = node.title %}
+          {% for post in site.categories[category] %}
+            <li>
+              <h3>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  {{ post.title }}
+                </a>
+                <small>{{ post.date | date_to_string }}</small>
+              </h3>
+            </li>
           {% endfor %}
         {% endif %}
       {% endfor %}
