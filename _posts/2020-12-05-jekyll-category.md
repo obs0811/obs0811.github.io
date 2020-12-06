@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll 블로그에 카테고리 추가
-categories: [ tech ]
+categories: [ Tech ]
 tags: [ jekyll ]
 permalink: /:categories/:title/
 ---

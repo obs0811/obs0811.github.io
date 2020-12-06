@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's Jekyll?
-categories: [ research ]
+categories: [ Tech ]
 tags: [ jekyll ]
 permalink: /:categories/:title/
 ---
