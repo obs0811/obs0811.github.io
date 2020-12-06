@@ -10,7 +10,7 @@ Jekyll 블로그에 카테고리 추가하기 위한 방법
 
 ### Goal
 1. Post 작성 시 특정 카테고리 (미리 정의) 지정 가능해야 함
-2. 이와 같이 카테고리 지정된 post를 카테고리 별로 모아서 보여줄 수 있는 카테고리 페이지 생성
+2. 이와 같이 카테고리 지정된 post를 모아서 보여줄 수 있는 카테고리 페이지 생성
 
 ### Category 만들기
 Post를 쓸 때 `_posts` 디렉토리에서 `layout`으로 `post`를 지정하고 내용을 작성함 (markdown). Category를 만드는 것도 post를 생성하는 것과 유사함: category에 대한 공통 템플릿이라 할 수 있는 layout 작성 필요
@@ -50,8 +50,7 @@ Post를 쓸 때 `_posts` 디렉토리에서 `layout`으로 `post`를 지정하�
      > 위 예의 경우 {base-url}/tech/jekyll-category 와 같은 형태
 
 ### Category Page 만들기
-지금까지 layout을 만들어서 category를 생성하고 post에서 이를 지정하는 과정 정리함  
-이렇게 만든 category 및 category에 속하는 post를 확인할 수 있는 페이지를 만들어야 함  
+지금까지 layout을 만들어서 category를 생성하고 post에서 이를 지정하는 과정 정리함. 이렇게 만든 category 및 category에 속하는 post를 확인할 수 있는 페이지를 만들어야 함  
 - 이 페이지는 `page` layout을 사용해서 만듦
 - Blog에서 생성한 post list 중 category를 명시 (e.g. `categories: [ tech ]`) 한 것을 찾아서 출력
 - 최상위 디렉토리에 `categories.html` 파일 작성
