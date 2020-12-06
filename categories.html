@@ -4,26 +4,22 @@ title: Category
 description: "An archive of posts sorted by tag."
 ---
 
-<header class="site-category">
-    <ul>
-      
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.layout == "category" %}
-          <!-- <h2> <a class="category-link {% if page.url == node.url %} active{% endif %}"
-          href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a> </h2> -->
-          <h2> {{ node.title }} </h2>
-          {% assign category = node.title %}
-          {% for post in site.categories[category] %}
-            <h3>
-              <a href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }}
-              </a>
-              <small>{{ post.date | date_to_string }}</small>
-            </h3>
-          {% endfor %}
-        {% endif %}
+<header class="site-category">  
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+    {% if node.layout == "category" %}
+      <!-- <h2> <a class="category-link {% if page.url == node.url %} active{% endif %}"
+      href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a> </h2> -->
+      <h2> {{ node.title }} </h2>
+      {% assign category = node.title %}
+      {% for post in site.categories[category] %}
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+          </a>
+          <small>{{ post.date | date_to_string }}</small>
+        </h3>
       {% endfor %}
-      
-    </ul>
+    {% endif %}
+  {% endfor %}
 </header>
