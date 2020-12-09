@@ -34,7 +34,7 @@ Computer Science에서는 conference를 통해 주요한 연구 성과가 공유
 
 ### 검색 방법 [WIP]
 - [Google Scholar](https://scholar.google.com/)
-- **[DBLP](https://dblp.org/)**: 추천하는 검색 서비스 - CS 분야 학회 / 저널에 특화된 DB 기반으로 정보 제공하고 publication provider인 IEEE / ACM 등의 공식적인 논문 업데이트와의 싱크가 정확하고 빠른 편
+- **[DBLP](https://dblp.org/)**: 개인적으로 추천하는 검색 서비스 -- CS 분야 학회 / 저널에 특화되어 있고 publication provider인 IEEE / ACM 등의 공식적인 논문 업데이트와의 싱크가 정확하고 빠른 편
 - [ResearchGate](https://www.researchgate.net/)
 
 - [IEEE Explorer](https://ieeexplore.ieee.org/Xplore/home.jsp)
