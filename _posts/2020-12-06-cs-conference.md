@@ -13,8 +13,7 @@ Computer Science에서는 conference를 통해 주요한 연구 성과가 공유
 ### 평가 기준 [WIP]
 학회의 신뢰도를 판단하기 위해 활용할 수 있는 기준들이 몇 가지 있다. 
 
-(1) Ranking
-다양한 기관에서 학회의 다양한 실적을 바탕으로 ranking을 산정하여 제공한다. 이와 같은 ranking은 절대적이라 할 수는 없지만 분야별 top-tier 학회를 구분하기 위한 데이터로는 적합하다고 할 수 있다. 
+(1) Ranking: 다양한 기관에서 학회의 다양한 실적을 바탕으로 ranking을 산정하여 제공한다. 이와 같은 ranking은 절대적이라 할 수는 없지만 분야별 top-tier 학회를 구분하기 위한 데이터로는 적합하다고 할 수 있다. 
 - [Google Scholar Top Publications](https://scholar.google.co.uk/citations?view_op=top_venues&hl=en): CS 뿐만 아니라 여러 도메인에 걸쳐 세부 연구 분야별 top publication venue 리스트를 제공. 학회 뿐만 아니라 저널도 포함
 - [Guide2Research](http://www.guide2research.com/topconf/)
 - [Microsoft Academic](https://academic.microsoft.com/conferences/41008148)
