@@ -46,8 +46,7 @@ Post를 쓸 때 `_posts` 디렉토리에서 `layout`으로 `post`를 지정하�
      ---
      ...
      ```
-     > (참고) permalink: 해당 post의 URL 형식 지정 가능  
-     > 위 예의 경우 {base-url}/tech/jekyll-category 와 같은 형태
+     > (참고) permalink: 해당 post의 URL 형식 지정 가능. 위 예의 경우 {base-url}/tech/jekyll-category 와 같은 형태
 
 ### Category Page 만들기
 지금까지 layout을 만들어서 category를 생성하고 post에서 이를 지정하는 과정 정리함. 이렇게 만든 category 및 category에 속하는 post를 확인할 수 있는 페이지를 만들어야 함  
