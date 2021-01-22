@@ -7,17 +7,14 @@ permalink: /:categories/:title/
 ---
 
 ### Soft Delete 개념
----
 
-DB의 데이터 삭제 요청 시 row를 그대로 제거하지 않고 `deletedAt`과 같은 별도의 column을 두어 삭제 여부만 기록하는 방식  
-Soft delete를 사용하는 테이블의 경우 데이터 조회 시 기본적으로 `deletedAt`을 확인하는 별도의 로직이 필요함  
-장단점이 있기 때문에 tradeoff를 고려하여 반드시 필요한 경우에 사용하는 것이 좋음
-
-* 장점: 삭제된 데이터에 대한 정보가 추후에 필요한 경우, 삭제 이력 확인 및 필요 시 데이터 복구 용이함
-* 단점: 데이터 조회 및 테이블 간 join 연산 등 수행할 때 추가적인 오버헤드 있음
+* DB의 데이터 삭제 요청 시 row를 그대로 제거하지 않고 `deletedAt`과 같은 별도의 column을 두어 삭제 여부만 기록하는 방식  
+* Soft delete를 사용하는 테이블의 경우 데이터 조회 시 기본적으로 `deletedAt`을 확인하는 별도의 로직이 필요함  
+* 장단점이 있기 때문에 tradeoff를 고려하여 반드시 필요한 경우에 사용하는 것이 좋음
+  * 장점: 삭제된 데이터에 대한 정보가 추후에 필요한 경우, 삭제 이력 확인 및 필요 시 데이터 복구 용이함
+  * 단점: 데이터 조회 및 테이블 간 join 연산 등 수행할 때 추가적인 오버헤드 있음
 
 ### Node.js Sequelize에서 Soft Delete 활용하기
----
 Sequelize는 `paranoid table`을 통해 soft delete를 지원함. Sequelize Doc에서 soft delete 개념을 다음과 같이 설명함
 
 [Paranoid](https://sequelize.org/master/manual/paranoid.html)
