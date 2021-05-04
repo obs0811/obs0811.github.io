@@ -2,7 +2,7 @@
 title:               Byungsoo's Blog
 tagline:             'Daily log'
 description:         'A record of daily experience'
-url:                 'https://obs0811.github.io'
+url:                 'https://byungsoo.github.io'
 baseurl:             ''
 paginate:            5
 permalink:           pretty
